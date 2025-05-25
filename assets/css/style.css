@@ -1,0 +1,13 @@
+body {
+    background: #f8f9fa;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+#qrcode {
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+}
