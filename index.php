@@ -65,9 +65,24 @@
             margin-top: auto; 
             width: 100%;
         }
+        /* 添加 GitHub 图标样式 */
+        .github-icon {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 2rem;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+        .github-icon:hover {
+            color: #0d6efd;
+        }
     </style>
 </head>
 <body>
+    <a href="https://github.com/zeppcmd/mulink" target="_blank" class="github-icon">
+        <i class="fab fa-github"></i>
+    </a>
     <div class="container mt-5">
         <h1 class="text-center mb-4"><i class="fas fa-link me-2"></i>短链接生成器</h1>
         <div class="card shadow">
